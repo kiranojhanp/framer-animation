@@ -1,7 +1,19 @@
-import React from 'react';
+import React from "react";
+import styled, { css } from "styled-components";
+import { motion } from "framer-motion";
 
-const Framer = () => {
-  return <div>Hello World</div>;
+export const Framer = () => {
+  return (
+		<div className="framer-container">
+			<motion.dev
+				animate={{ rotate: 360 }}
+				transition={{ duration: 2 }}
+				className="animated-box"
+			>
+				123
+			</motion.dev>
+		</div>
+	);
 };
 
-export default Framer;
+

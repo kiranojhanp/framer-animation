@@ -1,5 +1,5 @@
 import React from "react";
-import Framer from "./Framer";
+import {Framer} from "./Framer";
 
 export default {
 	title: "Example/Framer",
