@@ -1,36 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
-import {motion} from "framer-motion"
+import "./App.css";
+import { motion } from "framer-motion";
+
+const variants = {
+	not: {
+		y: [0, -150, -150, -150, 0, 0, 0, 0, 0, 0, 0],
+		transition: { repeat: 0, ease: "linear", duration: 4.5 },
+	},
+	line: {
+		width: [0, 650, 650, 0],
+		transition: {
+			delay: 2.2,
+			repeat: 0,
+			// repeatType: "reverse",
+			ease: "easeOut",
+			duration: 1.8,
+		},
+	},
+};
 
 function App() {
-  return (
-		<div className="App">
-			<header className="App-header">
-				<motion.img
-					src={logo}
-					animate={{ rotate: 360 }}
-					transition={{
-						duration: 7,
-						ease: "linear",
-						times: [0, 0.2, 0.5, 0.8, 1],
-						loop: Infinity,
-					}}
-					className="App-logo"
-					alt="logo"
-				/>
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
-			</header>
-		</div>
+	return (
+		<motion.div className="box relative">
+			<img className="crypto absolute" width="180" src="crypto.svg" alt="not" />
+			<motion.img
+				animate="not"
+				variants={variants}
+				className="not absolute"
+				width="180"
+				src="not.svg"
+				alt="not"
+			/>
+
+			<motion.div
+				animate="line"
+				variants={variants}
+				className="line absolute"
+			></motion.div>
+		</motion.div>
 	);
 }
 
