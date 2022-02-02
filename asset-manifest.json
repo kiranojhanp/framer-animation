@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/kiranojhanp/framer-animation/static/css/main.58aa1b07.css",
-    "main.js": "/kiranojhanp/framer-animation/static/js/main.0a91943a.js",
+    "main.css": "/kiranojhanp/framer-animation/static/css/main.b2619d76.css",
+    "main.js": "/kiranojhanp/framer-animation/static/js/main.0d03eded.js",
     "static/js/787.41b208e5.chunk.js": "/kiranojhanp/framer-animation/static/js/787.41b208e5.chunk.js",
+    "static/media/crypto.svg": "/kiranojhanp/framer-animation/static/media/crypto.8288eb08396ec40e50308b4910cf7253.svg",
+    "static/media/not.svg": "/kiranojhanp/framer-animation/static/media/not.ae76bd8ffdc55020d4d708cbd81456d3.svg",
     "index.html": "/kiranojhanp/framer-animation/index.html",
-    "main.58aa1b07.css.map": "/kiranojhanp/framer-animation/static/css/main.58aa1b07.css.map",
-    "main.0a91943a.js.map": "/kiranojhanp/framer-animation/static/js/main.0a91943a.js.map",
+    "main.b2619d76.css.map": "/kiranojhanp/framer-animation/static/css/main.b2619d76.css.map",
+    "main.0d03eded.js.map": "/kiranojhanp/framer-animation/static/js/main.0d03eded.js.map",
     "787.41b208e5.chunk.js.map": "/kiranojhanp/framer-animation/static/js/787.41b208e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58aa1b07.css",
-    "static/js/main.0a91943a.js"
+    "static/css/main.b2619d76.css",
+    "static/js/main.0d03eded.js"
   ]
 }
