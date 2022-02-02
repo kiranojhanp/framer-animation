@@ -7,15 +7,15 @@ import { useState } from "react";
 const variants = {
 	not: {
 		y: [0, -150, -150, -150, 0, 0, 0, 0, 0, 0, 0],
-		transition: { repeat: 0, ease: "linear", duration: 4.5 },
+		transition: { delay: 2, repeat: 0, ease: "linear", duration: 4.5 },
 	},
 	line: {
-		width: [0, 650, 650, 0],
+		width: [650, 0, 0, 0, 650],
 		transition: {
-			delay: 2.2,
+			delay: 0.5,
 			repeat: 0,
 			ease: "easeOut",
-			duration: 1.8,
+			duration: 4.5,
 		},
 	},
 };
