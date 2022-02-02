@@ -37,7 +37,7 @@ body {
 
 .line {
   position: absolute;
-  width: 1%;
+  width: 0;
   height: 20px;
   background-color: #ffa400;
   border: 5px solid #04004d;

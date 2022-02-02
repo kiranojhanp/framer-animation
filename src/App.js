@@ -1,5 +1,8 @@
 import "./App.css";
-import { motion } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
+import not from "./not.svg";
+import crypto from "./crypto.svg";
+import { useEffect, useState } from "react";
 
 const variants = {
 	not: {
@@ -11,7 +14,6 @@ const variants = {
 		transition: {
 			delay: 2.2,
 			repeat: 0,
-			// repeatType: "reverse",
 			ease: "easeOut",
 			duration: 1.8,
 		},
@@ -19,21 +21,39 @@ const variants = {
 };
 
 function App() {
+	const [isAnimationPlaying, setIsAnimationPlaying] = useState(false);
+	const notAnimationControls = useAnimation();
+	const lineAnimationControls = useAnimation();
+
+	// play first
+	// notAnimationControls.start(variants.not);
+	// lineAnimationControls.start(variants.line);
+
 	return (
-		<motion.div className="box relative">
-			<img className="crypto absolute" width="180" src="crypto.svg" alt="not" />
+		<motion.div
+			onHoverStart={() => {
+				if (!isAnimationPlaying) {
+					setIsAnimationPlaying(true);
+					notAnimationControls.start(variants.not);
+					lineAnimationControls.start(variants.line);
+				}
+			}}
+			onAnimationComplete={() => {
+				setIsAnimationPlaying(false);
+			}}
+			className="box relative"
+		>
+			<img className="crypto absolute" width="180" src={crypto} alt="not" />
 			<motion.img
-				animate="not"
-				variants={variants}
+				animate={notAnimationControls}
 				className="not absolute"
 				width="180"
-				src="not.svg"
+				src={not}
 				alt="not"
 			/>
 
 			<motion.div
-				animate="line"
-				variants={variants}
+				animate={lineAnimationControls}
 				className="line absolute"
 			></motion.div>
 		</motion.div>
