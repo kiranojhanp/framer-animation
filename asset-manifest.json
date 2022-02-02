@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/framer-animation/static/css/main.3788ae53.css",
-    "main.js": "/framer-animation/static/js/main.6309167c.js",
+    "main.css": "/framer-animation/static/css/main.3922c942.css",
+    "main.js": "/framer-animation/static/js/main.358477b0.js",
     "static/js/787.41b208e5.chunk.js": "/framer-animation/static/js/787.41b208e5.chunk.js",
     "static/media/crypto.svg": "/framer-animation/static/media/crypto.8288eb08396ec40e50308b4910cf7253.svg",
     "static/media/not.svg": "/framer-animation/static/media/not.ae76bd8ffdc55020d4d708cbd81456d3.svg",
     "index.html": "/framer-animation/index.html",
-    "main.3788ae53.css.map": "/framer-animation/static/css/main.3788ae53.css.map",
-    "main.6309167c.js.map": "/framer-animation/static/js/main.6309167c.js.map",
+    "main.3922c942.css.map": "/framer-animation/static/css/main.3922c942.css.map",
+    "main.358477b0.js.map": "/framer-animation/static/js/main.358477b0.js.map",
     "787.41b208e5.chunk.js.map": "/framer-animation/static/js/787.41b208e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3788ae53.css",
-    "static/js/main.6309167c.js"
+    "static/css/main.3922c942.css",
+    "static/js/main.358477b0.js"
   ]
 }
