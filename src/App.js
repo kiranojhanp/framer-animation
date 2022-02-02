@@ -2,7 +2,7 @@ import "./App.css";
 import { motion, useAnimation } from "framer-motion";
 import not from "./not.svg";
 import crypto from "./crypto.svg";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const variants = {
 	not: {
