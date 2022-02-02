@@ -1,7 +1,7 @@
 import "./App.css";
 import { motion, useAnimation } from "framer-motion";
-import not from "./not.svg";
-import crypto from "./crypto.svg";
+import Not from "./not.svg";
+import Crypto from "./crypto.svg";
 import { useState } from "react";
 
 const variants = {
@@ -43,12 +43,12 @@ function App() {
 			}}
 			className="box relative"
 		>
-			<img className="crypto absolute" width="180" src={crypto} alt="not" />
+			<img className="crypto absolute" width="180" src={Crypto} alt="not" />
 			<motion.img
 				animate={notAnimationControls}
 				className="not absolute"
 				width="180"
-				src={not}
+				src={Not}
 				alt="not"
 			/>
 
