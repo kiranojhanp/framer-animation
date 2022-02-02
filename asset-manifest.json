@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kiranojhanp/framer-animation/static/css/main.58aa1b07.css",
+    "main.js": "/kiranojhanp/framer-animation/static/js/main.0a91943a.js",
+    "static/js/787.41b208e5.chunk.js": "/kiranojhanp/framer-animation/static/js/787.41b208e5.chunk.js",
+    "index.html": "/kiranojhanp/framer-animation/index.html",
+    "main.58aa1b07.css.map": "/kiranojhanp/framer-animation/static/css/main.58aa1b07.css.map",
+    "main.0a91943a.js.map": "/kiranojhanp/framer-animation/static/js/main.0a91943a.js.map",
+    "787.41b208e5.chunk.js.map": "/kiranojhanp/framer-animation/static/js/787.41b208e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58aa1b07.css",
+    "static/js/main.0a91943a.js"
+  ]
+}
